@@ -1,27 +1,23 @@
+/* Mặc định cho màn hình lớn (desktop) */
 .toolbar {
-    background-color: rgb(255, 255, 255);
- 
+    background-color: #FFF;
 }
 
 .toolbar-in {
     text-align: center;
     margin: 10px;
-    border: 50px;
-    display: flex
+    display: flex;
 }
 
-.shopee-go-index {
-    margin-left: 50;
-}
-
-.shopee-text-login {
-    margin-left: 50;
+.shopee-go-index,
+.shopee-text-login,
+.help {
+    margin-left: 50px;
 }
 
 .help {
-    border: 100;
-    margin-left: 350;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img_middle {
@@ -29,78 +25,131 @@
 }
 
 .nether-in {
-    margin-left: 20;
+    margin-left: 20px;
     display: flex;
 }
 
 .nether-in-cskh {
     margin-left: 10px;
 }
-.text_cskh {
-    text-align: left;
+
+.text_cskh,
+.text_veshopee,
+.group2 {
     font-size: 15px;
 }
 
-
-.text_veshopee{
-    font-size: 15px;
+.text_veshopee {
     margin-left: 100px;
-
 }
-.group2{
-    
+
+.group2 {
     font-size: 12px;
     margin-left: 80px;
- 
 }
-.text_tdctt{
 
+.text_tdctt {
     margin-left: 20px;
 }
 
-.text_tud{
+.text_tud {
     margin-left: 120px;
 }
-.banner img{
-   
+
+.banner {
+    position: relative;
+}
+
+.banner img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-.banner{
-    position: relative;
-}
-.main_login{
-    border:1px solid rgb(255, 255, 255);
+
+.main_login {
+    border: 1px solid #FFF;
     border-radius: 10px;
-    background-color: rgb(247, 247, 247);
-    padding: auto;
-    margin :  20 0 0 0;
+    background-color: #F7F7F7;
+    margin-top: 20px;
     position: absolute;
-    left: 1000px
+    left: 1000px;
+    padding: 20px;
 }
-.main_login input{
+
+.main_login input,
+.main_login button {
     width: 100%;
 }
-.main_login button{
-    width: 100%;
+
+.main_login button {
     background-color: #EE4D2D;
     color: white;
     border: none;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
-.vien_facebook{
+
+.vien_facebook,
+.vien_google {
     text-align: center;
     border-radius: 5px;
-    background-color: rgb(247, 247, 247);
+    background-color: #F7F7F7;
 }
-.vien_google{
-    text-align: center;
-    border-radius: 5px;
-    background-color: rgb(247, 247, 247);
-}
-.QR_txt{
+
+.QR_txt {
     border: 1px solid #FFBF00;
     background-color: #FEFAEC;
     color: #FFBF00;
+}
+
+/* Responsive cho màn hình máy tính bảng (từ 768px đến 1024px) */
+@media (max-width: 1024px) {
+    .toolbar-in {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .main_login {
+        position: static;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .text_veshopee,
+    .group2,
+    .text_tdctt,
+    .text_tud {
+        margin-left: 0;
+    }
+}
+
+/* Responsive cho màn hình điện thoại (dưới 768px) */
+@media (max-width: 768px) {
+    .toolbar-in,
+    .nether-in {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .main_login {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .text_cskh,
+    .text_veshopee,
+    .group2 {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .banner img {
+        height: 200px;
+    }
+
+    .QR_txt {
+        font-size: 14px;
+    }
 }
