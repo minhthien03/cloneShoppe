@@ -1,0 +1,21 @@
+  /* .main {
+            background-image: url("/img/back1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+
+        .cardmain {
+            text-align: center;
+        }
+
+        .card {
+            margin: 200 300px;
+            /* Căn giữa theo chiều ngang */
+        }
+
+        .card-img-top {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+
+        }

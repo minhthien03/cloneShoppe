@@ -1,0 +1,106 @@
+.toolbar {
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+.toolbar-in {
+    text-align: center;
+    margin: 10px;
+    border: 50px;
+    display: flex
+}
+
+.shopee-go-index {
+    margin-left: 50;
+}
+
+.shopee-text-login {
+    margin-left: 50;
+}
+
+.help {
+    border: 100;
+    margin-left: 350;
+    margin: auto;
+}
+
+.img_middle {
+    text-align: center;
+}
+
+.nether-in {
+    margin-left: 20;
+    display: flex;
+}
+
+.nether-in-cskh {
+    margin-left: 10px;
+}
+.text_cskh {
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.text_veshopee{
+    font-size: 15px;
+    margin-left: 100px;
+
+}
+.group2{
+    
+    font-size: 12px;
+    margin-left: 80px;
+ 
+}
+.text_tdctt{
+
+    margin-left: 20px;
+}
+
+.text_tud{
+    margin-left: 120px;
+}
+.banner img{
+   
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.banner{
+    position: relative;
+}
+.main_login{
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: auto;
+    margin :  20 0 0 0;
+    position: absolute;
+    left: 1000px
+}
+.main_login input{
+    width: 100%;
+}
+.main_login button{
+    width: 100%;
+    background-color: #EE4D2D;
+    color: white;
+    border: none;
+    padding: 10px 0px;
+}
+.vien_facebook{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}
+.vien_google{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}
+.QR_txt{
+    border: 1px solid #FFBF00;
+    background-color: #FEFAEC;
+    color: #FFBF00;
+}

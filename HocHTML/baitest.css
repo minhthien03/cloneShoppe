@@ -1,0 +1,42 @@
+.title h1{
+    background-image: linear-gradient(to bottom right, #F5EFFF,#d1e9f600);
+    color: white;
+    text-align: center;
+}
+.button {
+    background-image: linear-gradient(to bottom right, #F5EFFF,#d1e9f600 );
+    padding: 30px;
+}
+.button a{
+    color: #FFF7F7;
+    text-decoration: none;
+    border: double 10px #1230AE;
+    padding: 20px; /* Nó là khoảng trống giữa phần tử và nội dung liên quan bên trong nó */
+    background-image: linear-gradient(to bottom right, #6C48C5,#fff7f7); 
+    /*background-image: được sử dụng để thiết lập hình nền cho một phần tử HTML 
+    linear-gradient(to bottom right:tạo ra một hiệu ứng chuyển đổi màu dần từ màu này sang màu khác theo một hướng xác định.*/
+    border-radius: 5px; /* đây là viền */
+}
+
+.button1 {
+    
+    padding:  25px 50px 25px 50px;
+    margin : 50px 300px 50px 650px;  /* là không hian xung quanh của phần tử   */
+    
+}
+.button2{
+    padding:  auto;
+    margin: auto;
+}
+.main{
+    background-image: url("/img/gifd.gif");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.image{
+    text-align: left   ;
+}
+.anh{
+    height: 500px;
+    width: auto;
+}
